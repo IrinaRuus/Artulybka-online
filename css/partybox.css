@@ -1,0 +1,349 @@
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro.ttf);
+}
+
+@font-face {
+  font-family: GothamProBold;
+  src: url(../fonts/GothamPro-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GothamPro;
+}
+.header {
+  width: 100%;
+  background: url(../img/BackgroundOthers.png) no-repeat;
+  padding-top: 6.25rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10rem;
+}
+
+h2 {
+  font-family: GothamProBold;
+  padding-top: 8.6rem;
+  padding-bottom: 5.3rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3.4rem;
+  color: #7109b4;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+hr {
+  width: 35rem;
+  margin-bottom: 1.6rem;
+}
+
+.container {
+  width: 1300px;
+  margin: 0px auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 72rem;
+  margin: 0 auto;
+  background: #ffffff;
+  opacity: 0.75;
+  border-radius: 6.25rem;
+}
+
+.logo {
+  margin-left: 3.75rem;
+}
+
+.menuNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuNavbar ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  align-items: center;
+  list-style: none;
+}
+
+.menuNavbar li {
+  margin-right: 35px;
+}
+
+.laguagesToggle {
+  margin-right: 2rem;
+}
+
+.laguagesToggle button {
+  margin: 0;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.laguagesToggle .en {
+  background: #a960d8;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.laguagesToggle .ru {
+  background: #d2acea;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.previewText h1 {
+  padding-top: 13rem;
+}
+
+.previewText p {
+  font-size: 2.1rem;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 5rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ 
+}
+
+.requestPanel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5.1rem;
+}
+
+.questBox {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2.4rem 1.8rem;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.questBox p {
+  width: 56rem;
+  height: 9.25rem;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.questBox span {
+  color: #7109b4;
+}
+
+.requestPanel button {
+  text-align: center;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  color: #7109b4;
+  background: #f9f0ff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 0;
+  font-size: 2rem;
+  padding: 1rem 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.informationAboutQuests {
+  display: flex;
+  padding-bottom: 9rem;
+}
+
+.onlineQuests {
+  display: flex;
+}
+
+.readFeedback {
+  margin-right: 7.2rem;
+}
+
+.readReviews {
+  font-family: GothamProBold;
+  font-size: 2.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.readReviews a {
+  
+  color: #ff27a9;
+}
+
+.readFeedback .instructionText {
+  font-family: GothamPro;
+  width: 40rem;
+  font-size: 2.1rem;
+  margin-left: 1rem;
+}
+
+.readFeedback .instructionText span {
+  color: #7109b4;
+}
+
+.questionsOptions p {
+  width: 41rem;
+  height: 13rem;
+  font-size: 2.1rem;
+  margin-top: 5rem;
+}
+
+.questionsOptions span {
+  color: #7109b4;
+}
+
+.onlineQuestsImg {
+  position: relative;
+}
+.onlineQuestsImg img {
+  position: absolute;
+  border-radius: 10px;
+}
+
+.quest2 {
+  z-index: 1px;
+  left: 9.3rem;
+  top: 10rem;
+}
+
+.quest3 {
+  z-index: 2px;
+  left: 20rem;
+  top: 3rem;
+}
+
+.buttonMoreDetailed {
+  text-align: center;
+  padding-bottom: 8.4rem;
+}
+
+.buttonMoreDetailed button {
+  font-family: GothamProBold;
+  width: 24rem;
+  font-size: 2rem;
+  color: #ffffff;
+  background: #7109b4;
+  border: none;
+  border-radius: 10px;
+  padding: 1.2rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.programsWrapper {
+  width: 100%;
+  background: url(../img/backgroundForPrograms.png);
+}
+
+.carouselPrograms {
+  text-align: center;
+  width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselPrograms p {
+  font-family: GothamPro;
+  margin: 0 auto;
+  padding-top: 1.6rem;
+  padding-bottom: 10rem;
+  color: #000;
+  font-size: 2.5rem;
+}
+
+.arrow {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 15rem;
+}
+
+.footer {
+  background: linear-gradient(
+      140.08deg,
+      #8560eb -17.59%,
+      rgba(255, 255, 255, 0) 77.22%
+    ),
+    rgba(113, 9, 180, 0.81);
+}
+
+.footer hr {
+  width: 76rem;
+  border: 0;
+  background: white;
+  height: 1px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.footer p {
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.socialNetworks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 17rem;
+  padding-top: 2rem;
+  margin: 0 auto 0.75rem auto;
+}
+
+.menuWrapper {
+  position: relative;
+}
+.menu {
+  display: none;
+  position: absolute;
+  background: #ffffff;
+  opacity: 0.75;
+  top: 1.35rem;
+  left: -0.75rem;
+}
+
+.menu ul {
+  display: block;
+}
+
+.menu li {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.menu li:hover {
+  background: rgba(169, 96, 216, 0.3);
+}
+
+.menu.active {
+  display: block;
+}
+
+.programsPartyBox {
+   margin-right: 5rem;
+}
+
+@media screen and (max-device-width:1600px) {
+  .header {width: 1600px;}
+  .jokes {width: 1600px;}
+  .footer {width: 1600px;}
+}

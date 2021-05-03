@@ -1,0 +1,262 @@
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro.ttf);
+}
+
+@font-face {
+  font-family: GothamProBold;
+  src: url(../fonts/GothamPro-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GothamPro;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: GothamPro;
+  font-size: 4.5rem;
+  width: 42rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 0.6rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  font-family: GothamPro;
+  font-size: 2.8rem;
+  width: 36rem;
+  color: #000;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+hr {
+  border: 1px solid #ffffff;
+  width: 372px;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  font-family: GothamPro;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background: url(../img/BackgroundOthers.png) no-repeat;
+  padding-top: 6.25rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 72rem;
+  margin: 0 auto;
+  background: #ffffff;
+  opacity: 0.75;
+  border-radius: 6.25rem;
+  margin-bottom: 11rem;
+}
+
+.logo {
+  margin-left: 3.75rem;
+}
+
+.menuNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuNavbar ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  align-items: center;
+  list-style: none;
+}
+
+.menuNavbar li {
+  margin-right: 35px;
+}
+
+.laguagesToggle {
+  margin-right: 2rem;
+}
+
+.laguagesToggle button {
+  margin: 0;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.laguagesToggle .en {
+  background: #a960d8;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.laguagesToggle .ru {
+  background: #d2acea;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.demoTextFeedback {
+  padding-bottom: 12rem;
+}
+
+.demoTextFeedback p {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.quoteBlocks {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+.quote {
+  border-radius: 10px;
+  margin-right: 3rem;
+  margin-left: 5rem;
+margin-top: 5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10rem;
+  width: 26rem;
+}
+
+
+.article {
+  height: 13rem;
+}
+
+.quote img {
+  margin-top: 1rem;
+  margin-left: 10rem;
+  margin-bottom: 0.3rem;
+}
+
+.quote p {
+  width: 21rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.author {
+  margin-left: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: #ff27a9;
+}
+
+.formFeedback {
+  padding-bottom: 12rem;
+  justify-content: center;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 4rem;
+  margin: 5rem auto 0 auto;
+  width: 64rem;
+}
+
+.email {
+  margin-top: 2rem;
+}
+
+.nameAndEmail input {
+  padding: 1rem 0 1rem 1rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.28);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.formWrapper textarea {
+  width: 69rem;
+  height: 13rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 0 0 1rem;
+  margin: 0;
+  resize: none;
+  font-family: GothamPro;
+  background: rgba(196, 196, 196, 0.28);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+  font-family: GothamProBold;
+  width: 16rem;
+  height: 3rem;
+  font-size: 2.25rem;
+  background: #7109b4;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 3rem;
+  text-align: center;
+  float: right;
+  margin-right: 9rem;
+}
+
+.footer {
+  background: linear-gradient(
+      140.08deg,
+      #8560eb -17.59%,
+      rgba(255, 255, 255, 0) 77.22%
+    ),
+    rgba(113, 9, 180, 0.81);
+}
+
+.footer hr {
+  width: 76rem;
+  border: 0;
+  background: white;
+  height: 1px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.footer p {
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.socialNetworks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 17rem;
+  padding-top: 2rem;
+  margin: 2rem auto 0.75rem auto;
+}
+
+
+@media screen and (max-device-width:1700px) {
+  .header {width: 1700px;}
+  .footer {width: 1700px;}
+.container {width:1700px;}
+}
